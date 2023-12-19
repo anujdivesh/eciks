@@ -22,7 +22,7 @@ const About = () => {
 
     //capabilities
     
-       baseLayer.current = L.tileLayer('https://opmmiddleware.gem.spc.int/tile/{z}/{x}/{y}.png', {
+       baseLayer.current = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
          attribution: '&copy; Pacific Community (OSM)',
          detectRetina: true
      });
